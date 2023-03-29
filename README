@@ -1,0 +1,60 @@
+Índice
+Sobre o Projeto
+Tecnologias Utilizadas
+Como Utilizar
+Como Contribuir
+Licença
+Sobre o Projeto
+Este projeto consiste em um código em Arduino que utiliza um sensor UV e um LDR para medir a intensidade da luz UV e a luminosidade do ambiente, respectivamente. Os valores medidos são exibidos em um display LCD e também são enviados pela porta serial.
+
+Tecnologias Utilizadas
+Arduino Uno
+Sensor UV
+
+Display LCD
+Linguagem C++
+Como Utilizar
+Conecte o Arduino ao computador.
+Abra o arquivo lcd-uv.ino na IDE do Arduino.
+Compile e envie o código para o Arduino.
+O valor do índices UV serão exibidos no display LCD e na porta serial.
+Como Contribuir
+Faça um fork do projeto.
+Crie uma nova branch com as suas alterações: git checkout -b my-feature
+Salve as alterações e crie uma mensagem de commit informando o que foi feito: git commit -m "feat: My new feature"
+Envie as alterações: git push origin my-feature
+Abra um pull request para que suas alterações sejam revisadas e incorporadas ao projeto.
+Licença
+Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+
+
+--------------------------------------------------------------------------------------------------------||-----------------------------------------------------------------
+
+
+UV and LDR Sensor
+This project aims to read data from a UV sensor and an LDR sensor and display the results on an LCD screen. The UV sensor will display the UV index and the LDR sensor will display the light intensity.
+
+Components
+Arduino Uno
+LiquidCrystal Library
+UV sensor
+
+Installation
+Connect the UV sensor to analog pin A5 on the Arduino board
+
+Connect the LCD screen to the following pins on the Arduino board:
+RS: 8
+E: 9
+D4: 4
+D5: 5
+D6: 6
+D7: 7
+Upload the code to the Arduino board
+Usage
+Connect the Arduino board to power
+Press the UV button to display the UV index
+Contributing
+Contributions are welcome. Please make sure to update the tests as appropriate.
+
+License
+MIT
